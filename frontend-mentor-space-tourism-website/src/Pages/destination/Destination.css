@@ -1,0 +1,31 @@
+body {
+
+    background-image: url(../../assets/mobile/destination/background-destination-mobile.jpg);
+}
+
+.header {
+
+    margin-bottom: 6.4vw;
+}
+
+.main {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1_destination_1 {
+
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 4.266vw;
+    line-height: 5.066vw;
+    letter-spacing: 0.72vw;
+    color: white;
+}
+
+.h1_destination_1 span {
+
+    margin-right: 4.8vw;
+    opacity: 0.25;
+}

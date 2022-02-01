@@ -1,0 +1,67 @@
+
+@media (min-width: 320px) {
+    
+    .header {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 12.8vw;
+    }
+    
+    .logo {
+    
+        width: 10.666vw;
+        height: 10.666vw;
+    }
+    
+    .nav {
+        
+        overflow: hidden;
+        visibility: hidden;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 31.4666vw;
+        padding-left: 8.5333vw;
+        gap: 8.5333vw;
+        top: 0;
+        right: 0;
+        width: 0%;
+        height: 100vh;
+        background: rgba(255, 255, 255, 0.04);
+        backdrop-filter: blur(81.5485px);
+        -webkit-backdrop-filter: blur(81.5485);
+        text-decoration: none;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 4.2666vw;
+        line-height: 5.0666vw;
+        letter-spacing: 0.72vw;
+        transition: 600ms;
+    }
+
+    .nav.active {
+
+        width: 67.73vw;
+        visibility: visible;
+    }
+    
+    .nav a {
+        
+        color: white;
+    }
+    
+    .nav span {
+    
+        font-weight: bold;
+        margin-right: 3.2vw;
+    }
+    
+    .closeNav {
+    
+        position: absolute;
+        top: 9.0533vw;
+        right: 7.0533vw;
+    }
+}

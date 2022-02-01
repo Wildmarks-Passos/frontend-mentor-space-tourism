@@ -1,0 +1,80 @@
+@media (min-width: 320px){
+    
+    body {
+        background-image: url(../../assets/mobile/background-home-mobile.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 6.4vw;
+    }
+
+    main {
+
+        text-align: center;
+    }
+
+    .spaceContent {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4.2666vw;
+    }
+    
+    .spaceContent_1 {
+    
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 4.2666vw;
+        line-height: 5.0666vw;
+        letter-spacing: 0.72vw;
+        color: var(--small-text-color);
+    }
+    
+    .spaceContent_2 {
+    
+        font-family: 'Bellefair', sans-serif;
+        font-size: 21.333vw;
+        line-height: 26.666vw;
+        color: white;
+    }
+    
+    .spaceContent_3 {
+    
+        font-family: 'Barlow', sans-serif;
+        font-size: 4vw;
+        line-height: 6.666vw;
+        text-align: center;
+        color: var(--small-text-color);
+        margin-bottom: 21.6vw;
+    }
+
+    .btnExplore {
+
+        width: 40vw;
+        height: 40vw;
+        border-radius: 50%;
+        border: none;
+        font-family: 'Bellefair', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 5.333vw;
+        line-height: 6.1333vw;
+        letter-spacing: 0.333vw;
+    }
+}
+
+@media (min-width: 426px){
+
+    body {
+        padding: 0;
+        background-image: url(../../assets/tablet/background-home-tablet.jpg);
+    } 
+}
+
+@media (min-width: 769px) {
+    
+    body {
+
+        background-image: url(../../assets/desktop/background-home-desktop.jpg);
+    }
+}
+
