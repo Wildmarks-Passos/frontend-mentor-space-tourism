@@ -1,5 +1,4 @@
 body {
-
     background-image: url(../../assets/mobile/destination/background-destination-mobile.jpg);
 }
 
@@ -22,10 +21,132 @@ body {
     line-height: 5.066vw;
     letter-spacing: 0.72vw;
     color: white;
+    margin-bottom: 8.533vw;
 }
 
 .h1_destination_1 span {
 
     margin-right: 4.8vw;
     opacity: 0.25;
+}
+
+.destination_menu {
+
+    display: flex;
+    list-style: none;
+    gap: 6.933vw;
+    height: 7.466vw;
+    color: var(--small-text-color);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 3.733vw;
+    line-height: 4.533vw;
+    letter-spacing: 0.63vw;
+    margin-bottom: 5.333vw;
+}
+
+.destination_menu li {
+    
+    cursor: pointer;
+    position: relative;
+}
+
+.destination_menu li::after {
+
+    content: '';
+    position: absolute;
+    visibility: hidden;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: solid 2px white;
+    transition: 300ms;
+}
+
+.destination_menu li.selected::after {
+    
+    width: 100%;
+    visibility: visible;
+}
+
+.destination_menu li:hover::after {
+
+    width: 100%;
+    visibility: visible;
+}
+
+.starName {
+
+    font-family: 'Bellefair', sans-serif;
+    font-weight: normal;
+    font-size: 14.933vw;
+    line-height: 17.066vw;
+    color: white;
+}
+
+.destDescription {
+
+    font-family: 'Barlow',sans-serif;
+    font-size: 4vw;
+    line-height: 6.6666vw;
+    color: var(--small-text-color);
+    margin-bottom: 8.5333vw;
+}
+
+hr {
+
+    width: 100%;
+    border: none;
+    background: #383B4B;
+    height: 1px;
+    margin-bottom: 8.533vw;
+}
+
+.avgDistance {
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8.533vw;
+}
+
+.avgDistance span:first-child {
+
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 3.733vw;
+    line-height: 4.533vw;
+    letter-spacing: 0.63vw;
+    margin-bottom: 3.2vw;
+    color: var(--small-text-color);
+}
+
+.avgDistance span:last-child {
+
+    font-family: 'Bellefair', sans-serif;
+    color: white;
+    font-size: 7.4666vw;
+    line-height: 8.5333vw;
+}
+
+.travelTime {
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8.533vw;
+}
+
+.travelTime span:first-child {
+
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 3.733vw;
+    line-height: 4.533vw;
+    letter-spacing: 0.63vw;
+    margin-bottom: 3.2vw;
+    color: var(--small-text-color);
+}
+
+.travelTime span:last-child {
+
+    font-family: 'Bellefair', sans-serif;
+    color: white;
+    font-size: 7.4666vw;
+    line-height: 8.5333vw;
 }
