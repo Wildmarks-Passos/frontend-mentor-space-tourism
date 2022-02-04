@@ -1,14 +1,19 @@
 @media (min-width: 320px){
-    
-    body {
+
+    .body_home {
+
         background-image: url(../../assets/mobile/background-home-mobile.jpg);
         background-size: cover;
         background-repeat: no-repeat;
+        height: 100vh;
         padding: 6.4vw;
     }
 
-    main {
-
+    .main_home {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         text-align: center;
     }
 

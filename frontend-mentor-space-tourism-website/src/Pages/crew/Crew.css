@@ -1,0 +1,87 @@
+@media (min-width: 320px) {
+
+    .body_crew {
+
+        background-image: url('../../assets/mobile/crew/background-crew-mobile.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 710px;
+        padding: 6.4vw;
+    }
+    
+    .main_crew {
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .container_people_img{
+    
+        width: 100%;
+        height: 59.2vw;
+        border-bottom: solid 1.3px #383B4B;
+        margin-bottom: 8.533vw;
+    }
+    
+    .people_image {
+    
+        height: 100%;
+    }
+    
+    .menu_crew {
+    
+        display: flex;
+        justify-content: center;
+        gap: 4.266vw;
+        list-style: none;
+        margin-bottom: 8.533vw;
+    }
+    
+    .menu_crew li {
+    
+        width: 2.666vw;
+        height: 2.666vw;
+        background-color: white;
+        border-radius: 50%;
+    }
+    
+    .people_information {
+    
+        display: flex;
+        flex-direction: column;
+        gap: 4.266vw;
+        margin-bottom: 27.733vw;
+    }
+    
+    .people_information div {
+    
+        font-family: 'Bellefair', sans-serif;
+        color: white;
+    }
+    
+    .people_function {
+    
+        font-size: 4.266vw;
+        line-height: 4.8vw;
+        text-transform: uppercase;
+        opacity: 0.5;
+        margin-bottom: 2.13vw;
+    }
+    
+    .people_name {
+    
+        font-size: 6.4vw;
+        line-height: 7.466vw;
+        text-transform: uppercase;
+    }
+    
+    .people_description {
+    
+        font-size: 4vw;
+        font-family: 'Barlow', sans-serif;
+        line-height: 6.666vw;
+        color: var(--small-text-color);
+    }
+}

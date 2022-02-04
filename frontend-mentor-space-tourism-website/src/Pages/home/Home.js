@@ -6,9 +6,9 @@ import Header from "../../components/header/Header"
 function Home (){
 
     return (
-        <>
+        <div className="body_home">
             <Header />
-            <main>
+            <main className="main_home">
                 <div className="spaceContent">
                     <span className="spaceContent_1">SO, YOU WANT TO TRAVEL TO</span>
                     <span className="spaceContent_2">SPACE</span>
@@ -18,7 +18,7 @@ function Home (){
                     <button className="btnExplore">EXPLORE</button>
                 </div>
             </main>
-        </>
+        </div>
     )
 }
 

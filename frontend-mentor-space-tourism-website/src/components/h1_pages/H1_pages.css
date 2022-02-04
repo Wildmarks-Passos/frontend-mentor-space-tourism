@@ -1,0 +1,15 @@
+.h1_destination_1 {
+
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 4.266vw;
+    line-height: 5.066vw;
+    letter-spacing: 0.72vw;
+    color: white;
+    margin-bottom: 8.533vw;
+}
+
+.h1_destination_1 span {
+
+    margin-right: 4.8vw;
+    opacity: 0.25;
+}

@@ -1,0 +1,19 @@
+@media (min-width: 320px) {
+    
+    .body_technology {
+
+        background-image: url('../../assets/mobile/technology/background-technology-mobile.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        padding: 6.4vw;
+    }
+
+    .main_technology {
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}

@@ -25,8 +25,8 @@ function Header(){
                 <img className="closeNav" onClick={showMenu} src={CloseNav}></img>
                 <Link to='/'><span>00</span>HOME</Link>
                 <Link to='/Destination'><span>01</span>DESTINATION</Link>
-                <Link to='/'><span>02</span>CREW</Link>
-                <Link to='/'><span>03</span>TECHNOLOGY</Link>
+                <Link to='/Crew'><span>02</span>CREW</Link>
+                <Link to='/Technology'><span>03</span>TECHNOLOGY</Link>
             </nav>
         </header>
     )

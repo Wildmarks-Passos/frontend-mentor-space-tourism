@@ -1,8 +1,8 @@
 import React, { useState } from "react"
 import './Destination.css'
 
-import Destination_image_star from "../../components/destination_image_star/Destination_image_star"
 import Header from "../../components/header/Header"
+import H1_pages from '../../components/h1_pages/H1_pages'
 
 // import all star images
 import Moon from '../../assets/images/image-moon.png'
@@ -95,11 +95,11 @@ function Destination(){
 
     return (
 
-        <>
+        <div className="body_destination">
             <Header className="header" />
-            <main className="main">
-                <h1 className="h1_destination_1"><span>01</span>PICK YOUR DESTINATION</h1>
-                <Destination_image_star src={pageState.image} />
+            <main className="main_destination">
+                <H1_pages number="01" text="PICK YOUR DESTINATION" />
+                <img className="moon" src={pageState.image}></img>
                 <ul className="destination_menu">
                     <li className={selected == 'moon' ? "selected" : ""} onClick={(el) => changeComponents(el)} 
                         destination={'moon'} 
@@ -129,7 +129,7 @@ function Destination(){
                     <span>{pageState.travelTime}</span>
                 </div>
             </main>
-        </>
+        </div>
     )
 }
 
