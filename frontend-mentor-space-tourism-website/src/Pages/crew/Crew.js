@@ -3,6 +3,7 @@ import './Crew.css'
 
 import Header from '../../components/header/Header'
 import H1_pages from '../../components/h1_pages/H1_pages'
+import Crew_img from '../../components/crew/crew_img/Crew_img'
 
 import D_Hurley from '../../assets/images/image-douglas-hurley.png'
 import M_Shuttleworth from '../../assets/images/image-mark-shuttleworth.png'
@@ -92,23 +93,25 @@ function Crew(){
             <Header />
             <main className='main_crew'>
                 <H1_pages number="02" text="MEET YOUR CREW" />
-                <div className='container_people_img'>
-                    <img className='people_image' src={pageState.image}></img>
-                </div>
+                <Crew_img image={pageState.image} />
                 <ul className='menu_crew'>
-                    <li people="d_hurley" 
+                    <li className={selected == 'd_hurley' ? 'selected' : ''}
+                        people="d_hurley" 
                         onClick={(el) => changeComponents(el)} 
                         key={1}>
                     </li>
-                    <li people="m_shuttleworth" 
+                    <li className={selected == 'm_shuttleworth' ? 'selected' : ''}
+                        people="m_shuttleworth" 
                         onClick={(el) => changeComponents(el)} 
                         key={2}>
                     </li>
-                    <li people="v_glover" 
+                    <li className={selected == 'v_glover' ? 'selected' : ''} 
+                        people="v_glover" 
                         onClick={(el) => changeComponents(el)} 
                         key={3}>
                     </li>
-                    <li people="a_ansari" 
+                    <li className={selected == 'a_ansari' ? 'selected' : ''} 
+                        people="a_ansari" 
                         onClick={(el) => changeComponents(el)} 
                         key={4}>
                     </li>

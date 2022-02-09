@@ -5,7 +5,7 @@
         background-image: url('../../assets/mobile/crew/background-crew-mobile.jpg');
         background-size: cover;
         background-repeat: no-repeat;
-        min-height: 710px;
+        min-height: 100vh;
         padding: 6.4vw;
     }
     
@@ -22,7 +22,7 @@
         width: 100%;
         height: 59.2vw;
         border-bottom: solid 1.3px #383B4B;
-        margin-bottom: 8.533vw;
+        margin-bottom: 32px;
     }
     
     .people_image {
@@ -34,25 +34,29 @@
     
         display: flex;
         justify-content: center;
-        gap: 4.266vw;
+        gap: 4.26vw;
         list-style: none;
-        margin-bottom: 8.533vw;
+        margin-bottom: 32px;
     }
     
     .menu_crew li {
     
-        width: 2.666vw;
-        height: 2.666vw;
-        background-color: white;
+        width: 2.6vw;
+        height: 2.6vw;
+        background-color: rgba(255, 255, 255, 0.17);
         border-radius: 50%;
+    }
+
+    .menu_crew li.selected {
+
+        background-color: white;
     }
     
     .people_information {
     
         display: flex;
         flex-direction: column;
-        gap: 4.266vw;
-        margin-bottom: 27.733vw;
+        gap: 4.26vw;
     }
     
     .people_information div {
@@ -63,17 +67,17 @@
     
     .people_function {
     
-        font-size: 4.266vw;
+        font-size: 4.26vw;
         line-height: 4.8vw;
         text-transform: uppercase;
         opacity: 0.5;
-        margin-bottom: 2.13vw;
+        margin-bottom: 8px;
     }
     
     .people_name {
     
         font-size: 6.4vw;
-        line-height: 7.466vw;
+        line-height: 7.46vw;
         text-transform: uppercase;
     }
     
@@ -81,7 +85,7 @@
     
         font-size: 4vw;
         font-family: 'Barlow', sans-serif;
-        line-height: 6.666vw;
+        line-height: 6.6vw;
         color: var(--small-text-color);
     }
 }

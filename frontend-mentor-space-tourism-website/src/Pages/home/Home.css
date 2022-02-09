@@ -5,7 +5,8 @@
         background-image: url(../../assets/mobile/background-home-mobile.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 100vh;
+        background-position: center;
+        min-height: 100vh;
         padding: 6.4vw;
     }
 
@@ -15,21 +16,22 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
+        margin-top: 48px;
     }
 
     .spaceContent {
-
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 4.2666vw;
+        gap: 16px;
+        margin-bottom: 81px;
     }
     
     .spaceContent_1 {
     
         font-family: 'Barlow Condensed', sans-serif;
-        font-size: 4.2666vw;
-        line-height: 5.0666vw;
+        font-size: 4.26vw;
+        line-height: 5.06vw;
         letter-spacing: 0.72vw;
         color: var(--small-text-color);
     }
@@ -37,8 +39,8 @@
     .spaceContent_2 {
     
         font-family: 'Bellefair', sans-serif;
-        font-size: 21.333vw;
-        line-height: 26.666vw;
+        font-size: 21.3vw;
+        line-height: 26.6vw;
         color: white;
     }
     
@@ -46,10 +48,9 @@
     
         font-family: 'Barlow', sans-serif;
         font-size: 4vw;
-        line-height: 6.666vw;
+        line-height: 6.6vw;
         text-align: center;
         color: var(--small-text-color);
-        margin-bottom: 21.6vw;
     }
 
     .btnExplore {
@@ -61,18 +62,23 @@
         font-family: 'Bellefair', sans-serif;
         font-style: normal;
         font-weight: normal;
-        font-size: 5.333vw;
-        line-height: 6.1333vw;
-        letter-spacing: 0.333vw;
+        font-size: 5.3vw;
+        line-height: 6.13vw;
+        letter-spacing: 0.3vw;
     }
 }
 
 @media (min-width: 426px){
-
-    body {
-        padding: 0;
+    
+    .body_home {
+        
         background-image: url(../../assets/tablet/background-home-tablet.jpg);
-    } 
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 100vh;
+        padding: 6.4vw;
+    }
 }
 
 @media (min-width: 769px) {

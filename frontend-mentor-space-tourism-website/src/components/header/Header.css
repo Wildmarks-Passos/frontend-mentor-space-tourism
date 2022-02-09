@@ -6,13 +6,19 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 12.8vw;
+        margin-bottom: 24px;
     }
     
     .logo {
     
-        width: 10.666vw;
-        height: 10.666vw;
+        width: 10.6vw;
+        height: 10.6vw;
+    }
+
+    .hamburger {
+
+        width: 6.4vw;
+        height: 5.6vw;
     }
     
     .nav {
@@ -23,8 +29,8 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        padding-top: 31.4666vw;
-        padding-left: 8.5333vw;
+        padding-top: 31.46vw;
+        padding-left: 8.53vw;
         gap: 8.5333vw;
         top: 0;
         right: 0;
@@ -35,8 +41,8 @@
         -webkit-backdrop-filter: blur(81.5485);
         text-decoration: none;
         font-family: 'Barlow Condensed', sans-serif;
-        font-size: 4.2666vw;
-        line-height: 5.0666vw;
+        font-size: 4.26vw;
+        line-height: 5.06vw;
         letter-spacing: 0.72vw;
         z-index: 5;
         transition: 600ms;
@@ -62,7 +68,7 @@
     .closeNav {
     
         position: absolute;
-        top: 9.0533vw;
-        right: 7.0533vw;
+        top: 9.05vw;
+        right: 7.05vw;
     }
 }

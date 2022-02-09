@@ -2,10 +2,12 @@
 
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 4.266vw;
+    font-weight: normal;
+    font-style: normal;
     line-height: 5.066vw;
     letter-spacing: 0.72vw;
     color: white;
-    margin-bottom: 8.533vw;
+    margin-bottom: 32px;
 }
 
 .h1_destination_1 span {

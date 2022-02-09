@@ -5,13 +5,8 @@
         background-image: url(../../assets/mobile/destination/background-destination-mobile.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        min-height: 850px;
+        min-height: 100vh;
         padding: 6.4vw;
-    }
-    
-    .header {
-    
-        margin-bottom: 6.4vw;
     }
     
     .main_destination {
@@ -24,23 +19,23 @@
     
     .moon {
     
-        width: 45.333vw;
-        height: 45.333vw;
-        margin-bottom: 6.93vw;
+        width: 45.3vw;
+        height: 45.3vw;
+        margin-bottom: 26px;
     }
     
     .destination_menu {
     
         display: flex;
         list-style: none;
-        gap: 6.933vw;
-        height: 7.466vw;
+        gap: 6.93vw;
+        height: 7.46vw;
         color: var(--small-text-color);
         font-family: 'Barlow Condensed', sans-serif;
-        font-size: 3.733vw;
-        line-height: 4.533vw;
+        font-size: 3.73vw;
+        line-height: 4.53vw;
         letter-spacing: 0.63vw;
-        margin-bottom: 5.333vw;
+        margin-bottom: 20px;
     }
     
     .destination_menu li {
@@ -77,8 +72,8 @@
     
         font-family: 'Bellefair', sans-serif;
         font-weight: normal;
-        font-size: 14.933vw;
-        line-height: 17.066vw;
+        font-size: 14.93vw;
+        line-height: 17.06vw;
         color: white;
     }
     
@@ -86,9 +81,9 @@
     
         font-family: 'Barlow',sans-serif;
         font-size: 4vw;
-        line-height: 6.6666vw;
+        line-height: 6.6vw;
         color: var(--small-text-color);
-        margin-bottom: 8.5333vw;
+        margin-bottom: 32px;
     }
     
     hr {
@@ -97,23 +92,23 @@
         border: none;
         background: #383B4B;
         height: 1px;
-        margin-bottom: 8.533vw;
+        margin-bottom: 32px;
     }
     
     .avgDistance {
     
         display: flex;
         flex-direction: column;
-        margin-bottom: 8.533vw;
+        gap: 12px;
+        margin-bottom: 32px;
     }
     
     .avgDistance span:first-child {
     
         font-family: 'Barlow Condensed', sans-serif;
-        font-size: 3.733vw;
-        line-height: 4.533vw;
+        font-size: 3.73vw;
+        line-height: 4.53vw;
         letter-spacing: 0.63vw;
-        margin-bottom: 3.2vw;
         color: var(--small-text-color);
     }
     
@@ -121,24 +116,24 @@
     
         font-family: 'Bellefair', sans-serif;
         color: white;
-        font-size: 7.4666vw;
-        line-height: 8.5333vw;
+        font-size: 7.46vw;
+        line-height: 8.53vw;
     }
     
     .travelTime {
     
         display: flex;
         flex-direction: column;
-        margin-bottom: 8.533vw;
+        gap: 12px;
+        margin-bottom: 58px;
     }
     
     .travelTime span:first-child {
     
         font-family: 'Barlow Condensed', sans-serif;
-        font-size: 3.733vw;
-        line-height: 4.533vw;
+        font-size: 3.73vw;
+        line-height: 4.53vw;
         letter-spacing: 0.63vw;
-        margin-bottom: 3.2vw;
         color: var(--small-text-color);
     }
     
@@ -146,7 +141,7 @@
     
         font-family: 'Bellefair', sans-serif;
         color: white;
-        font-size: 7.4666vw;
-        line-height: 8.5333vw;
+        font-size: 7.46vw;
+        line-height: 8.53vw;
     }
 }
