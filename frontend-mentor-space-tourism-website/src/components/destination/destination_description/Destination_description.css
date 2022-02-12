@@ -1,0 +1,8 @@
+.destDescription {
+    
+    font-family: 'Barlow',sans-serif;
+    font-size: 4vw;
+    line-height: 6.6vw;
+    color: var(--small-text-color);
+    margin-bottom: 32px;
+}

@@ -1,5 +1,5 @@
 
-@media (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 767.9px) {
     
     .header {
 
@@ -70,5 +70,73 @@
         position: absolute;
         top: 9.05vw;
         right: 7.05vw;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1439.9px) {
+    
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 94.92vw;
+        height: 12.5vw;
+        margin-bottom: 13.80vw;
+    }
+    
+    .logo {
+    
+        width: 6.25vw;
+        height: 6.25vw;
+    }
+
+    .hamburger {
+
+        display: none;
+    }
+    
+    .nav {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4.81vw;
+        width: 58.59vw;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.04);
+        backdrop-filter: blur(81.5485px);
+        -webkit-backdrop-filter: blur(81.5485);
+        text-decoration: none;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 1.82vw;
+        line-height: 2.21vw;
+        letter-spacing: 0.30vw;
+    }
+    
+    .nav a {
+        
+        position: relative;
+        font-weight: normal;
+        color: white;
+    }
+
+    .nav a::after {
+        
+        content: '';
+        position: absolute;
+        bottom: -47px;
+        left: 0;
+        border-bottom: solid 2px white;
+        width: 10px;
+    }
+    
+    .nav span {
+    
+        display: none;
+    }
+    
+    .closeNav {
+    
+        display: none;
     }
 }

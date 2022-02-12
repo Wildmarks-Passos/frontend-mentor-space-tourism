@@ -1,0 +1,36 @@
+.people_information {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 4.26vw;
+}
+
+.people_information div {
+
+    font-family: 'Bellefair', sans-serif;
+    color: white;
+}
+
+.people_function {
+
+    font-size: 4.26vw;
+    line-height: 4.8vw;
+    text-transform: uppercase;
+    opacity: 0.5;
+    margin-bottom: 8px;
+}
+
+.people_name {
+
+    font-size: 6.4vw;
+    line-height: 7.46vw;
+    text-transform: uppercase;
+}
+
+.people_description {
+
+    font-size: 4vw;
+    font-family: 'Barlow', sans-serif;
+    line-height: 6.6vw;
+    color: var(--small-text-color);
+}

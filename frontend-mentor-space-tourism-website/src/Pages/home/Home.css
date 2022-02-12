@@ -68,7 +68,7 @@
     }
 }
 
-@media (min-width: 426px){
+@media (min-width: 768px){
     
     .body_home {
         
@@ -77,11 +77,43 @@
         background-repeat: no-repeat;
         background-position: center;
         min-height: 100vh;
-        padding: 6.4vw;
+        padding: 0 6.4vw 6.4vw 6.4vw;
+    }
+
+    .spaceContent {
+
+        width: 450px;
+        gap: 24px;
+        margin-bottom: 156px;
+    }
+
+    .spaceContent_1 {
+
+        font-size: 2.60vw;
+        line-height: 3.12vw;
+        letter-spacing: 0.43vw;
+    }
+
+    .spaceContent_2 {
+
+        font-size: 19.53vw;
+        line-height: 19.53vw;
+    }
+
+    .spaceContent_3 {
+
+        font-size: 2.08vw;
+        line-height: 3.64vw;
+    }
+
+    .btnExplore {
+
+        width: 31.51vw;
+        height: 31.51vw;
     }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1440px) {
     
     body {
 

@@ -3,12 +3,17 @@ import './Destination.css'
 
 import Header from "../../components/header/Header"
 import H1_pages from '../../components/h1_pages/H1_pages'
+import Destination_img from "../../components/destination/destination_img/Destination_img"
 
 // import all star images
 import Moon from '../../assets/images/image-moon.png'
 import Mars from '../../assets/images/image-mars.png'
 import Europa from '../../assets/images/image-europa.png'
 import Titan from '../../assets/images/image-titan.png'
+import Destination_menu from "../../components/destination/destination_menu/Destination_menu"
+import Destination_star_name from "../../components/destination/destination_star_name/Destination_star_name"
+import Destination_description from "../../components/destination/destination_description/Destination_description"
+import Destination_avg_travel from "../../components/destination/destination_avg_travel/Destination_avg_travel"
 
 
 function Destination(){
@@ -99,35 +104,14 @@ function Destination(){
             <Header className="header" />
             <main className="main_destination">
                 <H1_pages number="01" text="PICK YOUR DESTINATION" />
-                <img className="moon" src={pageState.image}></img>
-                <ul className="destination_menu">
-                    <li className={selected == 'moon' ? "selected" : ""} onClick={(el) => changeComponents(el)} 
-                        destination={'moon'} 
-                        key={1}>MOON</li>
-
-                    <li className={selected == 'mars' ? "selected" : ""} onClick={(el) => changeComponents(el)} 
-                        destination={'mars'} 
-                        key={2}>MARS</li>
-
-                    <li className={selected == 'europa' ? "selected" : ""} onClick={(el) => changeComponents(el)} 
-                        destination={'europa'} 
-                        key={3}>EUROPA</li>
-
-                    <li className={selected == 'titan' ? "selected" : ""} onClick={(el) => changeComponents(el)} 
-                        destination={'titan'} 
-                        key={4}>TITAN</li>
-                </ul>
-                <h2 className="starName">{pageState.name}</h2>
-                <p className="destDescription">{pageState.description}</p>
+                <Destination_img image={pageState.image} />
+                <Destination_menu selected={selected} 
+                                  onClick={(el) => changeComponents(el)}/>
+                <Destination_star_name name={pageState.name} />
+                <Destination_description description={pageState.description} />
                 <hr />
-                <div className="avgDistance">
-                    <span>AVG. DISTANCE</span>
-                    <span>{pageState.distance}</span>
-                </div>
-                <div className="travelTime">
-                    <span>EST. TRAVEL TIME</span>
-                    <span>{pageState.travelTime}</span>
-                </div>
+                <Destination_avg_travel avg={pageState.distance}
+                                        travel={pageState.travelTime} />
             </main>
         </div>
     )

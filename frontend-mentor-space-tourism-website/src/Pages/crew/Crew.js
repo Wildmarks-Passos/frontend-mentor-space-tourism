@@ -9,6 +9,8 @@ import D_Hurley from '../../assets/images/image-douglas-hurley.png'
 import M_Shuttleworth from '../../assets/images/image-mark-shuttleworth.png'
 import V_Glover from '../../assets/images/image-victor-glover.png'
 import A_Ansari from '../../assets/images/image-anousheh-ansari.png'
+import Crew_menu from '../../components/crew/crew_menu/Crew_menu'
+import Crew_people_information from '../../components/crew/crew_people_information/Crew_people_information'
 
 function Crew(){
 
@@ -94,35 +96,10 @@ function Crew(){
             <main className='main_crew'>
                 <H1_pages number="02" text="MEET YOUR CREW" />
                 <Crew_img image={pageState.image} />
-                <ul className='menu_crew'>
-                    <li className={selected == 'd_hurley' ? 'selected' : ''}
-                        people="d_hurley" 
-                        onClick={(el) => changeComponents(el)} 
-                        key={1}>
-                    </li>
-                    <li className={selected == 'm_shuttleworth' ? 'selected' : ''}
-                        people="m_shuttleworth" 
-                        onClick={(el) => changeComponents(el)} 
-                        key={2}>
-                    </li>
-                    <li className={selected == 'v_glover' ? 'selected' : ''} 
-                        people="v_glover" 
-                        onClick={(el) => changeComponents(el)} 
-                        key={3}>
-                    </li>
-                    <li className={selected == 'a_ansari' ? 'selected' : ''} 
-                        people="a_ansari" 
-                        onClick={(el) => changeComponents(el)} 
-                        key={4}>
-                    </li>
-                </ul>
-                <div className='people_information'>
-                    <div>
-                        <p className='people_function'>{pageState.function}</p>
-                        <p className='people_name'>{pageState.name}</p>
-                    </div>
-                    <p className='people_description'>{pageState.description}</p>
-                </div>
+                <Crew_menu selected={selected} onClick={(el) => changeComponents(el)}/>
+                <Crew_people_information description={pageState.description}
+                                         function={pageState.function}
+                                         name={pageState.name}/>
             </main>
         </div>
     )

@@ -1,0 +1,30 @@
+.menu_tech {
+
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    margin-bottom: 26px;
+}
+
+.menu_tech li {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bellefair', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: solid 1px white;
+    background-color: black;
+    color: white;
+}
+
+.menu_tech li.selected {
+
+    background-color: white;
+    color: black;
+}

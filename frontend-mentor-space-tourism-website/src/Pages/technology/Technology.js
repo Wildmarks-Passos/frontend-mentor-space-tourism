@@ -3,6 +3,10 @@ import './Technology.css'
 
 import Header from "../../components/header/Header";
 import H1_pages from "../../components/h1_pages/H1_pages";
+import Technology_img from "../../components/technology/technology_img/Technology_img";
+import Technology_menu from "../../components/technology/technology_menu/Technology_menu";
+import Technology_terminology from "../../components/technology/technology_terminology/Technology_terminology";
+import Technology_description from "../../components/technology/technology_description/Technology_description";
 
 function Technology(){
 
@@ -70,34 +74,11 @@ function Technology(){
             <Header />
             <main className="main_technology">
                 <H1_pages number="03" text="SPACE LAUNCH 101" />
-                <div className={'techImg ' + pageState.class_image}></div>
-                <ul className="menu_tech">
-                    <li name='l_vehicle' 
-                        className={selected == 'l_vehicle' ? 'selected' : ''} 
-                        key={1} 
-                        onClick={(el) => changeComponents(el)} >
-                        1
-                    </li>
-                    <li name='spaceport' 
-                        className={selected == 'spaceport' ? 'selected' : ''} 
-                        key={2} 
-                        onClick={(el) => changeComponents(el)}>
-                        2
-                    </li>
-                    <li name='space_capsule' 
-                        className={selected == 'space_capsule' ? 'selected' : ''} 
-                        key={3} 
-                        onClick={(el) => changeComponents(el)}>
-                        3
-                    </li>
-                </ul>
-                <div className="the_terminology">
-                    <h2>the terminology</h2>
-                    <h3>{pageState.name}</h3>
-                </div>
-                <div className="description">
-                    <p>{pageState.description}</p>
-                </div>
+                <Technology_img image={pageState.class_image} />
+                <Technology_menu selected={selected} 
+                                 onClick={(el) => changeComponents(el)} />
+                <Technology_terminology name={pageState.name} />
+                <Technology_description description={pageState.description} />
             </main>
         </div>
     )

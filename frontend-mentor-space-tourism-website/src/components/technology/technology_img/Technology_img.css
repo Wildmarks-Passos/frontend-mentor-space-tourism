@@ -1,0 +1,27 @@
+.techImg {
+
+    /* position: absolute;
+    left: 0;
+    margin-top: 75px; */
+    width: calc(100% + 12.8vw);
+    height: 45.3vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 34px;
+}
+
+.techImg.img_1 {
+
+    background-image: url('../../../assets/images/image-launch-vehicle-landscape.jpg');
+}
+
+.techImg.img_2 {
+
+    background-image: url('../../../assets/images/image-spaceport-landscape.jpg');
+}
+
+.techImg.img_3 {
+
+    background-image: url('../../../assets/images/image-space-capsule-landscape.jpg');
+}
