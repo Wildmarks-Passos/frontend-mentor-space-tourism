@@ -1,49 +1,111 @@
-.avgDistance {
+@media (min-width: 320px) {
+    .avg_travel {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .avgDistance {
+        
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin-bottom: 32px;
+    }
     
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    margin-bottom: 32px;
+    .avgDistance span:first-child {
+    
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 3.73vw;
+        line-height: 4.53vw;
+        letter-spacing: 0.63vw;
+        color: var(--small-text-color);
+    }
+    
+    .avgDistance span:last-child {
+    
+        font-family: 'Bellefair', sans-serif;
+        color: white;
+        font-size: 7.46vw;
+        line-height: 8.53vw;
+    }
+    
+    .travelTime {
+    
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin-bottom: 58px;
+    }
+    
+    .travelTime span:first-child {
+    
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 3.73vw;
+        line-height: 4.53vw;
+        letter-spacing: 0.63vw;
+        color: var(--small-text-color);
+    }
+    
+    .travelTime span:last-child {
+    
+        font-family: 'Bellefair', sans-serif;
+        color: white;
+        font-size: 7.46vw;
+        line-height: 8.53vw;
+    }
 }
 
-.avgDistance span:first-child {
+@media (min-width: 768px) {
+    
+    .avg_travel {
 
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 3.73vw;
-    line-height: 4.53vw;
-    letter-spacing: 0.63vw;
-    color: var(--small-text-color);
-}
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 11px;
+        width: 100%;
+    }
 
-.avgDistance span:last-child {
+    .avgDistance {
+        
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        width: 28.64vw;
+    }
 
-    font-family: 'Bellefair', sans-serif;
-    color: white;
-    font-size: 7.46vw;
-    line-height: 8.53vw;
-}
+    .avgDistance span:first-child {
+    
+        font-size: 1.82vw;
+        line-height: 2.21vw;
+        letter-spacing: 0.30vw;
+    }
 
-.travelTime {
+    .avgDistance span:last-child {
+    
+        font-size: 3.64vw;
+        line-height: 4.16vw;
+    }
 
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    margin-bottom: 58px;
-}
+    .travelTime {
+    
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        width: 28.64vw;
+    }
 
-.travelTime span:first-child {
+    .travelTime span:first-child {
+    
+        font-size: 1.82vw;
+        line-height: 2.21vw;
+        letter-spacing: 0.30vw;
+    }
 
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 3.73vw;
-    line-height: 4.53vw;
-    letter-spacing: 0.63vw;
-    color: var(--small-text-color);
-}
-
-.travelTime span:last-child {
-
-    font-family: 'Bellefair', sans-serif;
-    color: white;
-    font-size: 7.46vw;
-    line-height: 8.53vw;
+    .travelTime span:last-child {
+    
+        font-size: 3.64vw;
+        line-height: 4.16vw;
+    }
 }

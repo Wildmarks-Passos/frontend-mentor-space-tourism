@@ -1,43 +1,63 @@
-.destination_menu {
+@media (min-width: 320px) {
     
-    display: flex;
-    list-style: none;
-    gap: 6.93vw;
-    height: 7.46vw;
-    color: var(--small-text-color);
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 3.73vw;
-    line-height: 4.53vw;
-    letter-spacing: 0.63vw;
-    margin-bottom: 20px;
-}
-
-.destination_menu li {
+    .destination_menu {
+        
+        display: flex;
+        list-style: none;
+        gap: 6.93vw;
+        height: 7.46vw;
+        color: var(--small-text-color);
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 3.73vw;
+        line-height: 4.53vw;
+        letter-spacing: 0.63vw;
+        margin-bottom: 20px;
+    }
     
-    cursor: pointer;
-    position: relative;
-}
-
-.destination_menu li::after {
-
-    content: '';
-    position: absolute;
-    visibility: hidden;
-    bottom: 0;
-    left: 0;
-    width: 0%;
-    border-bottom: solid 2px white;
-    transition: 300ms;
-}
-
-.destination_menu li.selected::after {
+    .destination_menu li {
+        
+        cursor: pointer;
+        position: relative;
+    }
     
-    width: 100%;
-    visibility: visible;
+    .destination_menu li::after {
+    
+        content: '';
+        position: absolute;
+        visibility: hidden;
+        bottom: 0;
+        left: 0;
+        width: 0%;
+        border-bottom: solid 2px white;
+        transition: 300ms;
+    }
+    
+    .destination_menu li.selected::after {
+        
+        width: 100%;
+        visibility: visible;
+    }
+    
+    .destination_menu li:hover::after {
+    
+        width: 100%;
+        visibility: visible;
+    }
 }
 
-.destination_menu li:hover::after {
-
-    width: 100%;
-    visibility: visible;
+@media (min-width: 768px) {
+    
+    .destination_menu {
+        
+        display: flex;
+        list-style: none;
+        gap: 4.55vw;
+        height: 4.42vw;
+        color: var(--small-text-color);
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 2.08vw;
+        line-height: 2.47vw;
+        letter-spacing: 0.35vw;
+        margin-bottom: 47px;
+    }
 }

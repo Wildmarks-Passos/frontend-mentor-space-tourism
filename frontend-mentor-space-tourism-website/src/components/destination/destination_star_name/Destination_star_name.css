@@ -1,8 +1,24 @@
-.starName {
+@media (min-width: 320px) {
     
-    font-family: 'Bellefair', sans-serif;
-    font-weight: normal;
-    font-size: 14.93vw;
-    line-height: 17.06vw;
-    color: white;
+    .starName {
+        
+        font-family: 'Bellefair', sans-serif;
+        font-weight: normal;
+        font-size: 14.93vw;
+        line-height: 17.06vw;
+        color: white;
+    }
+}
+
+@media (min-width: 768px) {
+    
+    .starName {
+        
+        font-family: 'Bellefair', sans-serif;
+        font-weight: normal;
+        font-size: 10.41vw;
+        line-height: 11.97vw;
+        color: white;
+        margin-bottom: 8px;
+    }
 }

@@ -79,9 +79,9 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 94.92vw;
+        width: calc(100% + 6.51vw);
         height: 12.5vw;
-        margin-bottom: 13.80vw;
+        margin-bottom: 5.20vw;
     }
     
     .logo {
@@ -124,10 +124,17 @@
         
         content: '';
         position: absolute;
-        bottom: -47px;
+        bottom: -5.20vw;
         left: 0;
         border-bottom: solid 2px white;
-        width: 10px;
+        border-radius: 2px;
+        width: 0;
+        transition: 300ms;
+    }
+
+    .nav a:hover::after {
+        
+        width: 100%;
     }
     
     .nav span {

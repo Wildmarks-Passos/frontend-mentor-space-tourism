@@ -26,3 +26,24 @@
         margin-bottom: 32px;
     }
 }
+
+@media (min-width: 768px) {
+    
+    .body_destination {
+
+        background-image: url(../../assets/tablet/destination/background-destination-tablet.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+        padding: 0 6.4vw 6.4vw 6.4vw;
+    }
+
+    hr {
+    
+        width: 74.60vw;
+        border: none;
+        background: #383B4B;
+        height: 1px;
+        margin-bottom: 32px;
+    }
+}

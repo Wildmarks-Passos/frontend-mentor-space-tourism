@@ -5,7 +5,7 @@ function Destination_avg_travel(props){
 
     return (
 
-        <>
+        <div className="avg_travel">
             <div className="avgDistance">
                 <span>AVG. DISTANCE</span>
                 <span>{props.avg}</span>
@@ -14,7 +14,7 @@ function Destination_avg_travel(props){
                 <span>EST. TRAVEL TIME</span>
                 <span>{props.travel}</span>
             </div>
-        </>
+        </div>
     )
 }
 

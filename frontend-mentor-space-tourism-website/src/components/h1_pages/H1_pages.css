@@ -1,17 +1,43 @@
-.h1_destination_1 {
-
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 4.266vw;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 5.066vw;
-    letter-spacing: 0.72vw;
-    color: white;
-    margin-bottom: 32px;
+@media (min-width: 320px) {
+    
+    .h1_destination_1 {
+    
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 4.266vw;
+        font-weight: normal;
+        font-style: normal;
+        line-height: 5.066vw;
+        letter-spacing: 0.72vw;
+        color: white;
+        margin-bottom: 32px;
+    }
+    
+    .h1_destination_1 span {
+    
+        margin-right: 4.8vw;
+        opacity: 0.25;
+    }
 }
 
-.h1_destination_1 span {
+@media (min-width: 768px) {
+    
+    .h1_destination_1 {
+        
+        width: 100%;
+        text-align: left;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 2.60vw;
+        font-weight: normal;
+        font-style: normal;
+        line-height: 3.125vw;
+        letter-spacing: 0.43vw;
+        color: white;
+        margin-bottom: 60px;
+    }
 
-    margin-right: 4.8vw;
-    opacity: 0.25;
+    .h1_destination_1 span {
+    
+        margin-right: 2.47vw;
+        opacity: 0.25;
+    }
 }

@@ -72,7 +72,7 @@
     
     .body_home {
         
-        background-image: url(../../assets/tablet/background-home-tablet.jpg);
+        background-image: url(../../assets/tablet/home/background-home-tablet.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -82,7 +82,8 @@
 
     .spaceContent {
 
-        width: 450px;
+        margin-top: 13.80vw;
+        width: 58.59vw;
         gap: 24px;
         margin-bottom: 156px;
     }
@@ -110,6 +111,9 @@
 
         width: 31.51vw;
         height: 31.51vw;
+        font-size: 4.16vw;
+        line-height: 4.81vw;
+        letter-spacing: 0.26vw;
     }
 }
 
