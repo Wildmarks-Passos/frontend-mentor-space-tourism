@@ -6,7 +6,7 @@ function Technology_terminology(props){
     return(
 
         <div className="the_terminology">
-            <h2>the terminology</h2>
+            <h2>the terminology...</h2>
             <h3>{props.name}</h3>
         </div>
     )

@@ -17,3 +17,13 @@
         text-align: center;
     }
 }
+
+@media (min-width: 768px) {
+    
+    .body_technology {
+
+        background-image: url('../../assets/tablet/technology/background-technology-tablet.jpg');
+        min-height: 100vh;
+        padding: 0 6.4vw;
+    }
+}

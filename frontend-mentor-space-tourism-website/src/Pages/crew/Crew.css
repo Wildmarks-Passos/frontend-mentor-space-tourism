@@ -17,3 +17,22 @@
         text-align: center;
     }
 }
+
+@media (min-width: 768px) {
+    
+    .body_crew {
+
+        background-image: url('../../assets/tablet/crew/background-crew-tablet.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+        padding: 0 6.4vw;
+    }
+
+    .information_crew {
+
+        display: flex;
+        flex-direction: column-reverse;
+        width: 59.63vw;
+    }
+}

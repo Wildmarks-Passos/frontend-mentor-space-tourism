@@ -1,12 +1,26 @@
-.container_people_img{
+@media (min-width: 320px) {
     
-    width: 100%;
-    height: 59.2vw;
-    border-bottom: solid 1.3px #383B4B;
-    margin-bottom: 32px;
+    .container_people_img{
+        
+        width: 100%;
+        height: 59.2vw;
+        border-bottom: solid 1.3px #383B4B;
+        margin-bottom: 32px;
+    }
+    
+    .people_image {
+    
+        height: 100%;
+    }
 }
 
-.people_image {
-
-    height: 100%;
+@media (min-width: 768px) {
+    
+    .container_people_img{
+        
+        width: 100%;
+        height: 66.92vw;
+        border-bottom: none;
+        margin-bottom: 0;
+    }
 }

@@ -95,11 +95,13 @@ function Crew(){
             <Header />
             <main className='main_crew'>
                 <H1_pages number="02" text="MEET YOUR CREW" />
-                <Crew_img image={pageState.image} />
-                <Crew_menu selected={selected} onClick={(el) => changeComponents(el)}/>
-                <Crew_people_information description={pageState.description}
-                                         function={pageState.function}
-                                         name={pageState.name}/>
+                <div className='information_crew'>
+                    <Crew_img image={pageState.image} />
+                    <Crew_menu selected={selected} onClick={(el) => changeComponents(el)}/>
+                    <Crew_people_information description={pageState.description}
+                                            function={pageState.function}
+                                            name={pageState.name}/>
+                </div>
             </main>
         </div>
     )

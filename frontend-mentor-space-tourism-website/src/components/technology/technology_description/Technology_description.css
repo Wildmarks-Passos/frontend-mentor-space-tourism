@@ -1,10 +1,23 @@
-.description {
+@media (min-width: 320px) {
+    
+    .description {
+    
+        color: var(--small-text-color);
+        font-family: 'Barlow', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 4vw;
+        line-height: 6.6vw;
+        text-align: center;
+    }
+}
 
-    color: var(--small-text-color);
-    font-family: 'Barlow', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 4vw;
-    line-height: 6.6vw;
-    text-align: center;
+@media (min-width: 768px) {
+    
+    .description {
+        
+        width: 59.63vw;
+        font-size: 2.08vw;
+        line-height: 3.64vw;
+    }
 }
