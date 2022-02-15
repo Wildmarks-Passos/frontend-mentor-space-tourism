@@ -15,6 +15,11 @@
         height: 10.6vw;
     }
 
+    .header hr {
+
+        display: none;
+    }
+
     .hamburger {
 
         width: 6.4vw;
@@ -90,6 +95,11 @@
         height: 6.25vw;
     }
 
+    .header hr {
+
+        display: none;
+    }
+
     .hamburger {
 
         display: none;
@@ -140,6 +150,94 @@
     .nav span {
     
         display: none;
+    }
+    
+    .closeNav {
+    
+        display: none;
+    }
+}
+
+@media (min-width: 1440px) {
+    
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: calc(100% + 2.67vw);
+        height: 6.66vw;
+        margin-bottom: 5.27vw;
+    }
+    
+    .logo {
+    
+        width: 3.33vw;
+        height: 3.33vw;
+    }
+
+    .header hr {
+
+        position: absolute;
+        left: 11.59vw;
+        top: 6.11vw;
+        width: 32.84vw;
+        height: 1px;
+        background-color: white;
+        opacity: 0.25;
+        z-index: 5;
+    }
+
+    .hamburger {
+
+        display: none;
+    }
+    
+    .nav {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3.33vw;
+        width: 58.59vw;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.04);
+        backdrop-filter: blur(81.5485px);
+        -webkit-backdrop-filter: blur(81.5485);
+        text-decoration: none;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 1.11vw;
+        line-height: 1.31vw;
+        letter-spacing: 0.18vw;
+    }
+    
+    .nav a {
+        
+        position: relative;
+        font-weight: normal;
+        color: white;
+    }
+
+    .nav a::after {
+        
+        content: '';
+        position: absolute;
+        bottom: -5.20vw;
+        left: 0;
+        border-bottom: solid 2px white;
+        border-radius: 2px;
+        width: 0;
+        transition: 300ms;
+    }
+
+    .nav a:hover::after {
+        
+        width: 100%;
+    }
+    
+    .nav span {
+        
+        font-weight: bold;
+        margin-right: 0.76vw;
     }
     
     .closeNav {

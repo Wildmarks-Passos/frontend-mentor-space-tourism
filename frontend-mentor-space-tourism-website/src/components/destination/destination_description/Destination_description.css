@@ -22,3 +22,14 @@
         margin-bottom: 49px;
     }
 }
+
+@media (min-width: 1440px) {
+    
+    .destDescription {
+        
+        width: 100%;
+        font-size: 1.25vw;
+        line-height: 2.22vw;
+        margin-bottom: 54px;
+    }
+}

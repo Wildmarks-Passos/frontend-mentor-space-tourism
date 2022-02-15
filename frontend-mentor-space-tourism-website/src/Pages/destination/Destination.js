@@ -104,14 +104,18 @@ function Destination(){
             <Header className="header" />
             <main className="main_destination">
                 <H1_pages number="01" text="PICK YOUR DESTINATION" />
-                <Destination_img image={pageState.image} />
-                <Destination_menu selected={selected} 
-                                  onClick={(el) => changeComponents(el)}/>
-                <Destination_star_name name={pageState.name} />
-                <Destination_description description={pageState.description} />
-                <hr />
-                <Destination_avg_travel avg={pageState.distance}
-                                        travel={pageState.travelTime} />
+                <div className="desktop_align">
+                    <Destination_img image={pageState.image} />
+                    <div>
+                        <Destination_menu selected={selected} 
+                                        onClick={(el) => changeComponents(el)}/>
+                        <Destination_star_name name={pageState.name} />
+                        <Destination_description description={pageState.description} />
+                        <hr />
+                        <Destination_avg_travel avg={pageState.distance}
+                                                travel={pageState.travelTime} />
+                    </div>
+                </div>
             </main>
         </div>
     )

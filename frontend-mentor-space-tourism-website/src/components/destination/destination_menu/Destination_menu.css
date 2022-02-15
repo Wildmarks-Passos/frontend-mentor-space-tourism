@@ -3,6 +3,7 @@
     .destination_menu {
         
         display: flex;
+        justify-content: center;
         list-style: none;
         gap: 6.93vw;
         height: 7.46vw;
@@ -59,5 +60,21 @@
         line-height: 2.47vw;
         letter-spacing: 0.35vw;
         margin-bottom: 47px;
+    }
+}
+
+@media (min-width: 1440px) {
+    
+    .destination_menu {
+        
+        display: flex;
+        justify-content: normal;
+        list-style: none;
+        gap: 2.5vw;
+        height: 2.36vw;
+        font-size: 1.11vw;
+        line-height: 1.31vw;
+        letter-spacing: 0.18vw;
+        margin-bottom: 52px;
     }
 }

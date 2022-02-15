@@ -20,6 +20,7 @@ function Header(){
 
         <header className="header">
             <img className="logo" src={Logo}></img>
+            <hr />
             <img className="hamburger" onClick={showMenu} src={Hamburger}></img>
             <nav className="nav">
                 <img className="closeNav" onClick={showMenu} src={CloseNav}></img>

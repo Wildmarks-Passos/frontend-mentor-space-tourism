@@ -118,10 +118,64 @@
 }
 
 @media (min-width: 1440px) {
-    
-    body {
 
-        background-image: url(../../assets/desktop/background-home-desktop.jpg);
+    .body_home {
+        
+        background-image: url(../../assets/desktop/home/background-home-desktop.jpg);
+        padding: 2.77vw 2.77vw 0 2.77vw;
+    }
+
+    .main_home {
+        
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+        text-align: center;
+        justify-content: space-between;
+        margin-top: 17.43vw;
+        margin-left: calc(11.45vw - 2.77vw);
+        margin-right: calc(11.45vw - 2.77vw);
+    }
+
+    .spaceContent {
+        
+        margin-top: 0;
+        width: 31.25vw;
+        gap: 24px;
+        align-items: flex-start;
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    .spaceContent_1 {
+
+        text-align: left;
+        font-size: 1.94vw;
+        line-height: 2.36vw;
+        letter-spacing: 0.32vw;
+    }
+
+    .spaceContent_2 {
+
+        text-align: left;
+        font-size: 10.41vw;
+        line-height: 11.94vw;
+    }
+
+    .spaceContent_3 {
+
+        text-align: left;
+        font-size: 1.25vw;
+        line-height: 2.22vw;
+    }
+
+    .btnExplore {
+
+        width: 19.02vw;
+        height: 19.02vw;
+        font-size: 2.22vw;
+        line-height: 2.56vw;
+        letter-spacing: 0.13vw;
     }
 }
 

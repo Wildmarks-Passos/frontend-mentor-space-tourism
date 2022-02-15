@@ -109,3 +109,38 @@
         line-height: 4.16vw;
     }
 }
+
+@media (min-width: 1440px) {
+    
+    .avg_travel {
+
+        gap: 5.48vw;
+        width: 100%;
+    }
+
+    .avgDistance span:first-child {
+    
+        font-size: 0.97vw;
+        line-height: 1.18vw;
+        letter-spacing: 0.16vw;
+    }
+
+    .avgDistance span:last-child {
+    
+        font-size: 1.94vw;
+        line-height: 2.22vw;
+    }
+
+    .travelTime span:first-child {
+    
+        font-size: 0.97vw;
+        line-height: 1.18vw;
+        letter-spacing: 0.16vw;
+    }
+
+    .travelTime span:last-child {
+    
+        font-size: 1.94vw;
+        line-height: 2.22vw;
+    }
+}

@@ -47,3 +47,40 @@
         margin-bottom: 32px;
     }
 }
+
+@media (min-width: 1440px) {
+    
+    .body_destination {
+
+        background-image: url(../../assets/desktop/destination/background-destination-desktop.jpg);
+        min-height: 100vh;
+        padding: 2.77vw 2.77vw 0 2.77vw;
+    }
+
+    .main_destination {
+
+        align-items: normal;
+    }
+
+    .desktop_align {
+
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 10.90vw;
+        width: 72.70vw;
+        margin-left: calc(15.97vw - 2.77vw);
+    }
+
+    .desktop_align div {
+
+        width: 30.90vw;
+        text-align: left;
+    }
+
+    hr {
+    
+        width: 100%;
+        margin-bottom: 28px;
+    }
+}

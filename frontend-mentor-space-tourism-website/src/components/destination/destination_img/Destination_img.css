@@ -17,3 +17,13 @@
         margin-bottom: 53px;
     }
 }
+
+@media (min-width: 1440px) {
+    
+    .starImage {
+        
+        width: 30.90vw;
+        height: 30.90vw;
+        margin-bottom: 0;
+    }
+}

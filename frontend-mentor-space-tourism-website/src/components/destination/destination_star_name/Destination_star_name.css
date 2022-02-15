@@ -22,3 +22,13 @@
         margin-bottom: 8px;
     }
 }
+
+@media (min-width: 1440px) {
+    
+    .starName {
+        
+        font-size: 6.94vw;
+        line-height: 7.98vw;
+        margin-bottom: 14px;
+    }
+}
