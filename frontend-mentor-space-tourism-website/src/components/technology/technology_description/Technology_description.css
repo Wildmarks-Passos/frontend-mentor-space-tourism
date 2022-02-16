@@ -21,3 +21,13 @@
         line-height: 3.64vw;
     }
 }
+
+@media (min-width: 1440px) {
+    
+    .description {
+        
+        width: 30.83vw;
+        font-size: 1.25vw;
+        line-height: 2.22vw;
+    }
+}

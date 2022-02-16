@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import { Link } from "react-router-dom"
 import './Header.css'
 
@@ -13,8 +13,7 @@ function showMenu(){
     nav.classList.toggle('active')
 }
 
-function Header(){
-
+function Header(props){
 
     return (
 
@@ -24,10 +23,10 @@ function Header(){
             <img className="hamburger" onClick={showMenu} src={Hamburger}></img>
             <nav className="nav">
                 <img className="closeNav" onClick={showMenu} src={CloseNav}></img>
-                <Link to='/'><span>00</span>HOME</Link>
-                <Link to='/Destination'><span>01</span>DESTINATION</Link>
-                <Link to='/Crew'><span>02</span>CREW</Link>
-                <Link to='/Technology'><span>03</span>TECHNOLOGY</Link>
+                <Link className={props.page == 'home' ? 'selected' : ''} to='/'><span>00</span>HOME</Link>
+                <Link className={props.page == 'destination' ? 'selected' : ''} to='/Destination'><span>01</span>DESTINATION</Link>
+                <Link className={props.page == 'crew' ? 'selected' : ''} to='/Crew'><span>02</span>CREW</Link>
+                <Link className={props.page == 'technology' ? 'selected' : ''} to='/Technology'><span>03</span>TECHNOLOGY</Link>
             </nav>
         </header>
     )

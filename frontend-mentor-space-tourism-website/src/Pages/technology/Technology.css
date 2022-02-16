@@ -27,3 +27,25 @@
         padding: 0 6.4vw;
     }
 }
+
+@media (min-width: 1440px) {
+    
+    .body_technology {
+
+        background-image: url('../../assets/desktop/technology/background-technology-desktop.jpg');
+        padding: 2.77vw 2.77vw 0 2.77vw;
+    }
+
+    .desktop_align_technology {
+
+        display: flex;
+        margin-top: 73px;
+        width: 100%;
+        gap: 5.55vw;
+    }
+
+    .desktop_align_technology div {
+
+        text-align: left;
+    }
+}

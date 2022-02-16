@@ -71,14 +71,18 @@ function Technology(){
     return(
 
         <div className="body_technology">
-            <Header />
+            <Header page='technology' />
             <main className="main_technology">
                 <H1_pages number="03" text="SPACE LAUNCH 101" />
                 <Technology_img image={pageState.class_image} />
-                <Technology_menu selected={selected} 
-                                 onClick={(el) => changeComponents(el)} />
-                <Technology_terminology name={pageState.name} />
-                <Technology_description description={pageState.description} />
+                <div className="desktop_align_technology">
+                    <Technology_menu selected={selected} 
+                                    onClick={(el) => changeComponents(el)} />
+                    <div>
+                        <Technology_terminology name={pageState.name} />
+                        <Technology_description description={pageState.description} />
+                    </div>
+                </div>
             </main>
         </div>
     )

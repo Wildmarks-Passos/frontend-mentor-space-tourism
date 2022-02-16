@@ -7,7 +7,7 @@ function Home (){
 
     return (
         <div className="body_home">
-            <Header />
+            <Header page='home' />
             <main className="main_home">
                 <div className="spaceContent">
                     <span className="spaceContent_1">SO, YOU WANT TO TRAVEL TO</span>

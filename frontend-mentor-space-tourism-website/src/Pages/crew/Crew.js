@@ -92,7 +92,7 @@ function Crew(){
     return(
 
         <div className='body_crew'>
-            <Header />
+            <Header page='crew' />
             <main className='main_crew'>
                 <H1_pages number="02" text="MEET YOUR CREW" />
                 <div className='information_crew'>

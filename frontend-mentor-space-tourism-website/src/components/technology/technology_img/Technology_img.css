@@ -38,3 +38,32 @@
         margin-bottom: 56px;
     }
 }
+
+@media (min-width: 1440px) {
+
+    .techImg {
+
+        position: absolute;
+        top: 18.88vw;
+        right: 0;
+        width: 515px;
+        height: 527px;
+    }
+
+    .techImg.img_1 {
+    
+        background-image: url('../../../assets/images/image-launch-vehicle-portrait.jpg');
+    }
+    
+    .techImg.img_2 {
+    
+        background-image: url('../../../assets/images/image-spaceport-portrait.jpg');
+    }
+    
+    .techImg.img_3 {
+    
+        background-image: url('../../../assets/images/image-space-capsule-portrait.jpg');
+    }
+
+    
+}

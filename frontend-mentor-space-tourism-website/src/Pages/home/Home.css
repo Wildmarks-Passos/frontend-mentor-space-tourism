@@ -65,6 +65,15 @@
         font-size: 5.3vw;
         line-height: 6.13vw;
         letter-spacing: 0.3vw;
+        cursor: pointer;
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.3);
+        transition: 300ms;
+    }
+
+    .btnExplore:hover {
+
+        box-shadow: 0 0 0 88px rgba(255, 255, 255, 0.3);
+
     }
 }
 
@@ -114,6 +123,7 @@
         font-size: 4.16vw;
         line-height: 4.81vw;
         letter-spacing: 0.26vw;
+        margin-bottom: 5vw;
     }
 }
 
@@ -176,6 +186,7 @@
         font-size: 2.22vw;
         line-height: 2.56vw;
         letter-spacing: 0.13vw;
+        margin: 0;
     }
 }
 

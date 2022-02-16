@@ -47,3 +47,22 @@
         line-height: 5.98vw;
     }
 }
+
+@media (min-width: 1440px) {
+    
+    .the_terminology h2 {
+        
+        text-align: left;
+        font-size: 1.11vw;
+        line-height: 1.31vw;
+        letter-spacing: 0.18vw;
+        margin-bottom: 11px;
+    }
+
+    .the_terminology h3 {
+        
+        text-align: left;
+        font-size: 3.88vw;
+        line-height: 4.44vw;
+    }
+}

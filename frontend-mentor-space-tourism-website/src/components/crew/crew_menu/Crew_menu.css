@@ -15,6 +15,12 @@
         height: 2.6vw;
         background-color: rgba(255, 255, 255, 0.17);
         border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .menu_crew li:hover {
+
+        background-color: rgba(255, 255, 255, 0.5);
     }
     
     .menu_crew li.selected {

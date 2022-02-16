@@ -13,7 +13,8 @@
     }
     
     .h1_destination_1 span {
-    
+        
+        font-weight: bold;
         margin-right: 4.8vw;
         opacity: 0.25;
     }

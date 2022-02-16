@@ -101,7 +101,7 @@ function Destination(){
     return (
 
         <div className="body_destination">
-            <Header className="header" />
+            <Header page='destination' className="header" />
             <main className="main_destination">
                 <H1_pages number="01" text="PICK YOUR DESTINATION" />
                 <div className="desktop_align_destination">
