@@ -97,10 +97,12 @@ function Crew(){
                 <H1_pages number="02" text="MEET YOUR CREW" />
                 <div className='information_crew'>
                     <Crew_img image={pageState.image} />
-                    <Crew_menu selected={selected} onClick={(el) => changeComponents(el)}/>
-                    <Crew_people_information description={pageState.description}
-                                            function={pageState.function}
-                                            name={pageState.name}/>
+                    <div className='desktop_align_crew'>
+                        <Crew_menu selected={selected} onClick={(el) => changeComponents(el)}/>
+                        <Crew_people_information description={pageState.description}
+                                                function={pageState.function}
+                                                name={pageState.name}/>
+                    </div>
                 </div>
             </main>
         </div>

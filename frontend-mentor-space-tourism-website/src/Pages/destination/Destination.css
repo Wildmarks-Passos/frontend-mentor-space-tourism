@@ -62,7 +62,7 @@
         align-items: normal;
     }
 
-    .desktop_align {
+    .desktop_align_destination {
 
         display: flex;
         align-items: center;
@@ -72,7 +72,7 @@
         margin-left: calc(15.97vw - 2.77vw);
     }
 
-    .desktop_align div {
+    .desktop_align_destination div {
 
         width: 30.90vw;
         text-align: left;

@@ -59,3 +59,34 @@
         margin-bottom: 40px;
     }
 }
+
+@media (min-width: 1440px) {
+    
+    .people_information {
+        
+        display: flex;
+        flex-direction: column;
+        gap: 1.87vw;
+        text-align: left;
+    }
+
+    .people_function {
+    
+        font-size: 2.22vw;
+        line-height: 2.56vw;
+    }
+
+    .people_name {
+    
+        font-size: 3.88vw;
+        line-height: 4.44vw;
+    }
+
+    .people_description {
+        
+        max-width: 30.83vw;
+        min-height: 17.22vw;
+        font-size: 1.25vw;
+        line-height: 2.22vw;
+    }
+}

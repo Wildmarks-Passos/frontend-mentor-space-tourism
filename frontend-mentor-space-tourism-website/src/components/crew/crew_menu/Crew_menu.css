@@ -37,3 +37,18 @@
         height: 1.3vw;
     }
 }
+
+@media (min-width: 1440px) {
+    
+    .menu_crew {
+        
+        gap: 1.66vw;
+        margin-bottom: 0;
+    }
+
+    .menu_crew li {
+    
+        width: 1.04vw;
+        height: 1.04vw;
+    }
+}

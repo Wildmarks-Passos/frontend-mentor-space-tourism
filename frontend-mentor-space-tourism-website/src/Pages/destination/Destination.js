@@ -104,7 +104,7 @@ function Destination(){
             <Header className="header" />
             <main className="main_destination">
                 <H1_pages number="01" text="PICK YOUR DESTINATION" />
-                <div className="desktop_align">
+                <div className="desktop_align_destination">
                     <Destination_img image={pageState.image} />
                     <div>
                         <Destination_menu selected={selected} 

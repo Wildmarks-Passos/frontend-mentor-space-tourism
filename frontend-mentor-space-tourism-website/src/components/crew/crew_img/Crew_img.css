@@ -24,3 +24,17 @@
         margin-bottom: 0;
     }
 }
+
+@media (min-width: 1440px) {
+    
+    .container_people_img{
+
+        position: absolute;
+        right: 137px;
+        bottom: 0;
+        width: auto;
+        height: auto;
+        border-bottom: none;
+        margin-bottom: 0;
+    }
+}

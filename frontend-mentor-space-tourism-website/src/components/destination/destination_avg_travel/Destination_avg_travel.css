@@ -73,6 +73,7 @@
         flex-direction: column;
         gap: 12px;
         width: 28.64vw;
+        margin-bottom: 0;
     }
 
     .avgDistance span:first-child {
@@ -94,6 +95,7 @@
         flex-direction: column;
         gap: 12px;
         width: 28.64vw;
+        margin-bottom: 0;
     }
 
     .travelTime span:first-child {
