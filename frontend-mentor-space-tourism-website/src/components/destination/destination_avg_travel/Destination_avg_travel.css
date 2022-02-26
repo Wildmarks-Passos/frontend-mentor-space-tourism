@@ -16,9 +16,9 @@
     .avgDistance span:first-child {
     
         font-family: 'Barlow Condensed', sans-serif;
-        font-size: 3.73vw;
-        line-height: 4.53vw;
-        letter-spacing: 0.63vw;
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        letter-spacing: 0.236rem;
         color: var(--small-text-color);
     }
     
@@ -26,8 +26,8 @@
     
         font-family: 'Bellefair', sans-serif;
         color: white;
-        font-size: 7.46vw;
-        line-height: 8.53vw;
+        font-size: 2.8rem;
+        line-height: 3.2rem;
     }
     
     .travelTime {
@@ -41,9 +41,9 @@
     .travelTime span:first-child {
     
         font-family: 'Barlow Condensed', sans-serif;
-        font-size: 3.73vw;
-        line-height: 4.53vw;
-        letter-spacing: 0.63vw;
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        letter-spacing: 0.236rem;
         color: var(--small-text-color);
     }
     
@@ -51,8 +51,8 @@
     
         font-family: 'Bellefair', sans-serif;
         color: white;
-        font-size: 7.46vw;
-        line-height: 8.53vw;
+        font-size: 2.8rem;
+        line-height: 3.2rem;
     }
 }
 
@@ -78,15 +78,15 @@
 
     .avgDistance span:first-child {
     
-        font-size: 1.82vw;
-        line-height: 2.21vw;
-        letter-spacing: 0.30vw;
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        letter-spacing: 0.236rem;
     }
 
     .avgDistance span:last-child {
     
-        font-size: 3.64vw;
-        line-height: 4.16vw;
+        font-size: 2.8rem;
+        line-height: 3.2rem;
     }
 
     .travelTime {
@@ -100,15 +100,50 @@
 
     .travelTime span:first-child {
     
-        font-size: 1.82vw;
-        line-height: 2.21vw;
-        letter-spacing: 0.30vw;
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        letter-spacing: 0.236rem;
     }
 
     .travelTime span:last-child {
     
-        font-size: 3.64vw;
-        line-height: 4.16vw;
+        font-size: 2.8rem;
+        line-height: 3.2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    
+    .avg_travel {
+
+        gap: 5.48vw;
+        width: 100%;
+    }
+
+    .avgDistance span:first-child {
+    
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        letter-spacing: 0.236rem;
+    }
+
+    .avgDistance span:last-child {
+    
+        font-size: 2.8rem;
+        line-height: 3.2rem;
+    }
+
+    .travelTime span:first-child {
+    
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        letter-spacing: 0.236rem;
+    }
+
+    .travelTime span:last-child {
+    
+        font-size: 2.8rem;
+        line-height: 3.2rem;
     }
 }
 
@@ -122,27 +157,27 @@
 
     .avgDistance span:first-child {
     
-        font-size: 0.97vw;
-        line-height: 1.18vw;
-        letter-spacing: 0.16vw;
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        letter-spacing: 0.236rem;
     }
 
     .avgDistance span:last-child {
     
-        font-size: 1.94vw;
-        line-height: 2.22vw;
+        font-size: 2.8rem;
+        line-height: 3.2rem;
     }
 
     .travelTime span:first-child {
     
-        font-size: 0.97vw;
-        line-height: 1.18vw;
-        letter-spacing: 0.16vw;
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        letter-spacing: 0.236rem;
     }
 
     .travelTime span:last-child {
     
-        font-size: 1.94vw;
-        line-height: 2.22vw;
+        font-size: 2.8rem;
+        line-height: 3.2rem;
     }
 }

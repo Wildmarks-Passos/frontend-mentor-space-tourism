@@ -2,9 +2,10 @@
     
     .destDescription {
         
+        max-width: 378px;
         font-family: 'Barlow',sans-serif;
-        font-size: 4vw;
-        line-height: 6.6vw;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
         color: var(--small-text-color);
         margin-bottom: 32px;
     }
@@ -14,12 +15,24 @@
     
     .destDescription {
         
+        max-width: initial;
         width: 74.60vw;
         font-family: 'Barlow',sans-serif;
-        font-size: 2.08vw;
-        line-height: 3.64vw;
+        font-size: 1.6rem;
+        line-height: 2.8rem;
         color: var(--small-text-color);
         margin-bottom: 49px;
+    }
+}
+
+@media (min-width: 1024px) {
+    
+    .destDescription {
+        
+        width: 100%;
+        font-size: 1.8rem;
+        line-height: 3.2rem;
+        margin-bottom: 54px;
     }
 }
 
@@ -28,8 +41,8 @@
     .destDescription {
         
         width: 100%;
-        font-size: 1.25vw;
-        line-height: 2.22vw;
+        font-size: 1.8rem;
+        line-height: 3.2rem;
         margin-bottom: 54px;
     }
 }

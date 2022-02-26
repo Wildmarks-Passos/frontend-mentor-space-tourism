@@ -2,8 +2,8 @@
     
     .techImg {
     
-        width: calc(100% + 12.8vw);
-        height: 45.3vw;
+        width: calc(100% + 48px);
+        height: 170px;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -30,8 +30,8 @@
     
     .techImg {
     
-        width: calc(100% + 12.8vw);
-        height: 45.3vw;
+        width: calc(100% + 78px);
+        height: 310px;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -39,12 +39,41 @@
     }
 }
 
+@media (min-width: 1024px) {
+
+    .techImg {
+
+        position: absolute;
+        top: 272px;
+        right: 0;
+        width: 293px;
+        height: 300px;
+    }
+
+    .techImg.img_1 {
+    
+        background-image: url('../../../assets/images/image-launch-vehicle-portrait.jpg');
+    }
+    
+    .techImg.img_2 {
+    
+        background-image: url('../../../assets/images/image-spaceport-portrait.jpg');
+    }
+    
+    .techImg.img_3 {
+    
+        background-image: url('../../../assets/images/image-space-capsule-portrait.jpg');
+    }
+
+    
+}
+
 @media (min-width: 1440px) {
 
     .techImg {
 
         position: absolute;
-        top: 18.88vw;
+        top: 272px;
         right: 0;
         width: 515px;
         height: 527px;

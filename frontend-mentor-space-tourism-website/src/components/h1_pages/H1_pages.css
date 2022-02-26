@@ -3,11 +3,11 @@
     .h1_destination_1 {
     
         font-family: 'Barlow Condensed', sans-serif;
-        font-size: 4.266vw;
+        font-size: 1.6rem;
         font-weight: normal;
         font-style: normal;
-        line-height: 5.066vw;
-        letter-spacing: 0.72vw;
+        line-height: 1.9rem;
+        letter-spacing: 0.27rem;
         color: white;
         margin-bottom: 32px;
     }
@@ -15,7 +15,7 @@
     .h1_destination_1 span {
         
         font-weight: bold;
-        margin-right: 4.8vw;
+        margin-right: 1.8rem;
         opacity: 0.25;
     }
 }
@@ -27,18 +27,36 @@
         width: 100%;
         text-align: left;
         font-family: 'Barlow Condensed', sans-serif;
-        font-size: 2.60vw;
+        font-size: 2rem;
         font-weight: normal;
         font-style: normal;
-        line-height: 3.125vw;
-        letter-spacing: 0.43vw;
+        line-height: 2.4rem;
+        letter-spacing: 0.3375rem;
         color: white;
         margin-bottom: 60px;
     }
 
     .h1_destination_1 span {
     
-        margin-right: 2.47vw;
+        margin-right: 1.9rem;
+        opacity: 0.25;
+    }
+}
+
+@media (min-width: 1020px) {
+    
+    .h1_destination_1 {
+        
+        font-size: 2.8rem;
+        line-height: 3.4rem;
+        letter-spacing: 0.4725rem;
+        margin-bottom: 64px;
+    }
+
+    .h1_destination_1 span {
+        
+        margin-left: calc(11.56vw - 2.77vw);
+        margin-right: 2.8rem;
         opacity: 0.25;
     }
 }
@@ -47,16 +65,16 @@
     
     .h1_destination_1 {
         
-        font-size: 1.94vw;
-        line-height: 2.36vw;
-        letter-spacing: 0.32vw;
+        font-size: 2.8rem;
+        line-height: 3.4rem;
+        letter-spacing: 0.4725rem;
         margin-bottom: 64px;
     }
 
     .h1_destination_1 span {
         
         margin-left: calc(11.56vw - 2.77vw);
-        margin-right: 1.94vw;
+        margin-right: 2.8rem;
         opacity: 0.25;
     }
 }

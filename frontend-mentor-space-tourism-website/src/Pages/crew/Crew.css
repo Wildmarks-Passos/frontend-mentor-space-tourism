@@ -6,7 +6,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         min-height: 100vh;
-        padding: 6.4vw;
+        padding: 24px;
     }
     
     .main_crew {
@@ -26,7 +26,13 @@
         background-size: cover;
         background-repeat: no-repeat;
         min-height: 100vh;
-        padding: 0 6.4vw;
+        padding: 0 39px;
+    }
+
+    .desktop_align_crew {
+        
+        display: flex;
+        flex-direction: column;
     }
 
     .information_crew {
@@ -37,12 +43,13 @@
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
     
     .body_crew {
 
+        position: relative;
         background-image: url('../../assets/desktop/crew/background-crew-desktop.jpg');
-        padding: 2.77vw 2.77vw 0 2.77vw;
+        padding: 40px 55px 0 55px;
     }
 
     .main_crew {
@@ -59,6 +66,7 @@
         justify-content: center;
         flex-direction: column-reverse;
         align-items: flex-start;
+        margin-top: calc(154px - 64px);
     }
 
     .information_crew {
@@ -67,7 +75,44 @@
         display: flex;
         flex-direction: row-reverse;
         justify-content: flex-end;
-        margin-left: calc(11.45vw - 2.77vw);
+        margin-left: calc(11.45vw - 55px);
+        gap: 5.65vw;
+        margin-bottom: 94px;
+    }
+}
+
+@media (min-width: 1440px) {
+    
+    .body_crew {
+
+        background-image: url('../../assets/desktop/crew/background-crew-desktop.jpg');
+        padding: 40px 55px 0 55px;
+    }
+
+    .main_crew {
+    
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+        text-align: center;
+    }
+
+    .desktop_align_crew {
+        
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        margin-top: calc(154px - 64px);
+    }
+
+    .information_crew {
+
+        width: auto;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        margin-left: calc(11.45vw - 55px);
         gap: 5.65vw;
     }
 }

@@ -6,7 +6,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         min-height: 100vh;
-        padding: 6.4vw;
+        padding: 24px;
     }
 
     .main_technology {
@@ -24,16 +24,16 @@
 
         background-image: url('../../assets/tablet/technology/background-technology-tablet.jpg');
         min-height: 100vh;
-        padding: 0 6.4vw;
+        padding: 0 39px;
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
     
     .body_technology {
 
         background-image: url('../../assets/desktop/technology/background-technology-desktop.jpg');
-        padding: 2.77vw 2.77vw 0 2.77vw;
+        padding: 40px 55px 0 55px;
     }
 
     .desktop_align_technology {
@@ -42,6 +42,30 @@
         margin-top: 73px;
         width: 100%;
         gap: 5.55vw;
+        margin-bottom: 160px;
+    }
+
+    .desktop_align_technology div {
+
+        text-align: left;
+    }
+}
+
+@media (min-width: 1440px) {
+    
+    .body_technology {
+
+        background-image: url('../../assets/desktop/technology/background-technology-desktop.jpg');
+        padding: 40px 55px 0 55px;
+    }
+
+    .desktop_align_technology {
+
+        display: flex;
+        margin-top: 73px;
+        width: 100%;
+        gap: 5.55vw;
+        margin-bottom: 200px;
     }
 
     .desktop_align_technology div {

@@ -4,8 +4,8 @@
         
         font-family: 'Bellefair', sans-serif;
         font-weight: normal;
-        font-size: 14.93vw;
-        line-height: 17.06vw;
+        font-size: 5.6rem;
+        line-height: 6.4rem;
         color: white;
     }
 }
@@ -16,10 +16,20 @@
         
         font-family: 'Bellefair', sans-serif;
         font-weight: normal;
-        font-size: 10.41vw;
-        line-height: 11.97vw;
+        font-size: 8rem;
+        line-height: 9.2rem;
         color: white;
         margin-bottom: 8px;
+    }
+}
+
+@media (min-width: 1024px) {
+    
+    .starName {
+        
+        font-size: 10rem;
+        line-height: 11.5rem;
+        margin-bottom: 14px;
     }
 }
 
@@ -27,8 +37,8 @@
     
     .starName {
         
-        font-size: 6.94vw;
-        line-height: 7.98vw;
+        font-size: 10rem;
+        line-height: 11.5rem;
         margin-bottom: 14px;
     }
 }

@@ -7,7 +7,7 @@
         background-repeat: no-repeat;
         background-position: center;
         min-height: 100vh;
-        padding: 6.4vw;
+        padding: 24px;
     }
 
     .main_home {
@@ -30,25 +30,25 @@
     .spaceContent_1 {
     
         font-family: 'Barlow Condensed', sans-serif;
-        font-size: 4.26vw;
-        line-height: 5.06vw;
-        letter-spacing: 0.72vw;
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+        letter-spacing: 0.27rem;
         color: var(--small-text-color);
     }
     
     .spaceContent_2 {
     
         font-family: 'Bellefair', sans-serif;
-        font-size: 21.3vw;
-        line-height: 26.6vw;
+        font-size: 8rem;
+        line-height: 10rem;
         color: white;
     }
     
     .spaceContent_3 {
     
         font-family: 'Barlow', sans-serif;
-        font-size: 4vw;
-        line-height: 6.6vw;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
         text-align: center;
         color: var(--small-text-color);
     }
@@ -62,9 +62,9 @@
         font-family: 'Bellefair', sans-serif;
         font-style: normal;
         font-weight: normal;
-        font-size: 5.3vw;
-        line-height: 6.13vw;
-        letter-spacing: 0.3vw;
+        font-size: 2rem;
+        line-height: 2.3rem;
+        letter-spacing: 0.125rem;
         cursor: pointer;
         box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.3);
         transition: 300ms;
@@ -86,53 +86,53 @@
         background-repeat: no-repeat;
         background-position: center;
         min-height: 100vh;
-        padding: 0 6.4vw;
+        padding: 0 39px;
     }
 
     .spaceContent {
 
-        margin-top: 13.80vw;
-        width: 58.59vw;
+        margin-top: 106px;
+        max-width: 450px;
         gap: 24px;
         margin-bottom: 156px;
     }
 
     .spaceContent_1 {
 
-        font-size: 2.60vw;
-        line-height: 3.12vw;
-        letter-spacing: 0.43vw;
+        font-size: 2rem;
+        line-height: 2.4rem;
+        letter-spacing: 0.3375rem;
     }
 
     .spaceContent_2 {
 
-        font-size: 19.53vw;
-        line-height: 19.53vw;
+        font-size: 15rem;
+        line-height: 15rem;
     }
 
     .spaceContent_3 {
 
-        font-size: 2.08vw;
-        line-height: 3.64vw;
+        font-size: 1.6rem;
+        line-height: 2.8rem;
     }
 
     .btnExplore {
 
-        width: 31.51vw;
-        height: 31.51vw;
-        font-size: 4.16vw;
-        line-height: 4.81vw;
-        letter-spacing: 0.26vw;
-        margin-bottom: 5vw;
+        width: 242px;
+        height: 242px;
+        font-size: 3.2rem;
+        line-height: 3.7rem;
+        letter-spacing: 0.2rem;
+        margin-bottom: 90px;
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1020px) {
 
     .body_home {
         
         background-image: url(../../assets/desktop/home/background-home-desktop.jpg);
-        padding: 2.77vw 2.77vw 0 2.77vw;
+        padding: 40px 55px 0 55px;
     }
 
     .main_home {
@@ -142,51 +142,115 @@
         align-items: end;
         text-align: center;
         justify-content: space-between;
-        margin-top: 17.43vw;
-        margin-left: calc(11.45vw - 2.77vw);
-        margin-right: calc(11.45vw - 2.77vw);
+        margin-top: 121px;
+        margin-left: calc(165px - 55px);
+        margin-right: calc(165px - 55px);        
     }
 
     .spaceContent {
         
         margin-top: 0;
-        width: 31.25vw;
+        width: 450px;
         gap: 24px;
         align-items: flex-start;
         text-align: left;
-        margin-bottom: 0;
+        margin: 0;
+        margin-bottom: 131px;
     }
 
     .spaceContent_1 {
 
         text-align: left;
-        font-size: 1.94vw;
-        line-height: 2.36vw;
-        letter-spacing: 0.32vw;
+        font-size: 2.8rem;
+        line-height: 3.4rem;
+        letter-spacing: 0.4725rem;
     }
 
     .spaceContent_2 {
 
         text-align: left;
-        font-size: 10.41vw;
-        line-height: 11.94vw;
+        font-size: 15rem;
+        line-height: 17.2rem;
     }
 
     .spaceContent_3 {
 
         text-align: left;
-        font-size: 1.25vw;
-        line-height: 2.22vw;
+        font-size: 1.8rem;
+        line-height: 3.2rem;
     }
 
     .btnExplore {
 
-        width: 19.02vw;
-        height: 19.02vw;
-        font-size: 2.22vw;
-        line-height: 2.56vw;
-        letter-spacing: 0.13vw;
-        margin: 0;
+        width: 274px;
+        height: 274px;
+        font-size: 3.2rem;
+        line-height: 3.7rem;
+        letter-spacing: 0.2rem;
+        margin-bottom: 131px;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    .body_home {
+        
+        background-image: url(../../assets/desktop/home/background-home-desktop.jpg);
+        padding: 40px 55px 0 55px;
+    }
+
+    .main_home {
+        
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+        text-align: center;
+        justify-content: space-between;
+        margin-top: 251px;
+        margin-left: calc(165px - 55px);
+        margin-right: calc(165px - 55px);
+    }
+
+    .spaceContent {
+        
+        margin-top: 0;
+        width: 450px;
+        gap: 24px;
+        align-items: flex-start;
+        text-align: left;
+        margin-bottom: 131px;
+    }
+
+    .spaceContent_1 {
+
+        text-align: left;
+        font-size: 2.8rem;
+        line-height: 3.4rem;
+        letter-spacing: 0.4725rem;
+    }
+
+    .spaceContent_2 {
+
+        text-align: left;
+        font-size: 15rem;
+        line-height: 17.2rem;
+    }
+
+    .spaceContent_3 {
+
+        text-align: left;
+        font-size: 1.8rem;
+        line-height: 3.2rem;
+    }
+
+    .btnExplore {
+
+        width: 274px;
+        height: 274px;
+        font-size: 3.2rem;
+        line-height: 3.7rem;
+        letter-spacing: 0.2rem;
+        margin-bottom: 131px;
     }
 }
 

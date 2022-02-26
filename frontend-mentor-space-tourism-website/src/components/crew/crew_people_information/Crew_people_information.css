@@ -15,8 +15,8 @@
     
     .people_function {
     
-        font-size: 4.26vw;
-        line-height: 4.8vw;
+        font-size: 1.6rem;
+        line-height: 1.8rem;
         text-transform: uppercase;
         opacity: 0.5;
         margin-bottom: 8px;
@@ -24,39 +24,76 @@
     
     .people_name {
     
-        font-size: 6.4vw;
-        line-height: 7.46vw;
+        font-size: 2.4rem;
+        line-height: 2.8rem;
         text-transform: uppercase;
     }
     
     .people_description {
-    
-        font-size: 4vw;
+        
+        max-width: 378px;
+        font-size: 1.5rem;
         font-family: 'Barlow', sans-serif;
-        line-height: 6.6vw;
+        line-height: 2.5rem;
         color: var(--small-text-color);
     }
 }
 
 @media (min-width: 768px) {
-    
+    .people_information {
+
+        margin-bottom: 40px;
+    }
+
     .people_function {
     
-        font-size: 3.125vw;
-        line-height: 3.64vw;
+        font-size: 2.4rem;
+        line-height: 2.8rem;
     }
 
     .people_name {
     
-        font-size: 5.20vw;
-        line-height: 5.98vw;
+        font-size: 4rem;
+        line-height: 4.6rem;
     }
 
     .people_description {
+        
+        max-width: initial;
+        font-size: 1.6rem;
+        line-height: 2.8rem;
+    }
+}
+
+@media (min-width: 1024px) {
     
-        font-size: 2.08vw;
-        line-height: 3.64vw;
-        margin-bottom: 40px;
+    .people_information {
+        
+        display: flex;
+        flex-direction: column;
+        gap: 1.87vw;
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    .people_function {
+    
+        font-size: 3.2rem;
+        line-height: 3.7rem;
+    }
+
+    .people_name {
+    
+        font-size: 5.6rem;
+        line-height: 6.4rem;
+    }
+
+    .people_description {
+        
+        max-width: 30.83vw;
+        min-height: 248px;
+        font-size: 1.8rem;
+        line-height: 3.2rem;
     }
 }
 
@@ -72,21 +109,21 @@
 
     .people_function {
     
-        font-size: 2.22vw;
-        line-height: 2.56vw;
+        font-size: 3.2rem;
+        line-height: 3.7rem;
     }
 
     .people_name {
     
-        font-size: 3.88vw;
-        line-height: 4.44vw;
+        font-size: 5.6rem;
+        line-height: 6.4rem;
     }
 
     .people_description {
         
         max-width: 30.83vw;
-        min-height: 17.22vw;
-        font-size: 1.25vw;
-        line-height: 2.22vw;
+        min-height: 248px;
+        font-size: 1.8rem;
+        line-height: 3.2rem;
     }
 }

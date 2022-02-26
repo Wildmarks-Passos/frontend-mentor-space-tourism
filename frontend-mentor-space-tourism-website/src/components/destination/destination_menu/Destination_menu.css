@@ -6,12 +6,12 @@
         justify-content: center;
         list-style: none;
         gap: 6.93vw;
-        height: 7.46vw;
+        height: 28px;
         color: var(--small-text-color);
         font-family: 'Barlow Condensed', sans-serif;
-        font-size: 3.73vw;
-        line-height: 4.53vw;
-        letter-spacing: 0.63vw;
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        letter-spacing: 0.236rem;
         margin-bottom: 20px;
     }
     
@@ -54,13 +54,29 @@
         display: flex;
         list-style: none;
         gap: 4.55vw;
-        height: 4.42vw;
+        height: 34px;
         color: var(--small-text-color);
         font-family: 'Barlow Condensed', sans-serif;
-        font-size: 2.08vw;
-        line-height: 2.47vw;
-        letter-spacing: 0.35vw;
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+        letter-spacing: 0.27rem;
         margin-bottom: 47px;
+    }
+}
+
+@media (min-width: 1024px) {
+    
+    .destination_menu {
+        
+        display: flex;
+        justify-content: normal;
+        list-style: none;
+        gap: 2.5vw;
+        height: 34px;
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+        letter-spacing: 0.27rem;
+        margin-bottom: 52px;
     }
 }
 
@@ -72,10 +88,10 @@
         justify-content: normal;
         list-style: none;
         gap: 2.5vw;
-        height: 2.36vw;
-        font-size: 1.11vw;
-        line-height: 1.31vw;
-        letter-spacing: 0.18vw;
+        height: 34px;
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+        letter-spacing: 0.27rem;
         margin-bottom: 52px;
     }
 }

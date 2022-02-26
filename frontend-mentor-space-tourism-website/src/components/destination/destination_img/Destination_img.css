@@ -2,8 +2,8 @@
     
     .starImage {
         
-        width: 45.3vw;
-        height: 45.3vw;
+        width: 170px;
+        height: 170px;
         margin-bottom: 26px;
     }
 }
@@ -12,9 +12,19 @@
     
     .starImage {
         
-        width: 39.06vw;
-        height: 39.06vw;
+        width: 300px;
+        height: 300px;
         margin-bottom: 53px;
+    }
+}
+
+@media (min-width: 1024px) {
+    
+    .starImage {
+        
+        width: 300px;
+        height: 300px;
+        margin-bottom: 0;
     }
 }
 
@@ -22,8 +32,8 @@
     
     .starImage {
         
-        width: 30.90vw;
-        height: 30.90vw;
+        width: 445px;
+        height: 445px;
         margin-bottom: 0;
     }
 }

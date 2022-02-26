@@ -6,7 +6,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         min-height: 100vh;
-        padding: 6.4vw;
+        padding: 24px;
     }
     
     .main_destination {
@@ -35,7 +35,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         min-height: 100vh;
-        padding: 0 6.4vw;
+        padding: 0 39px;
     }
 
     hr {
@@ -48,13 +48,13 @@
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
     
     .body_destination {
 
         background-image: url(../../assets/desktop/destination/background-destination-desktop.jpg);
         min-height: 100vh;
-        padding: 2.77vw 2.77vw 0 2.77vw;
+        padding: 40px 55px 0 55px;
     }
 
     .main_destination {
@@ -66,10 +66,39 @@
 
         display: flex;
         align-items: center;
+        justify-content: space-between;
         flex-direction: row;
-        gap: 10.90vw;
         width: 72.70vw;
-        margin-left: calc(15.97vw - 2.77vw);
+        margin-left: calc(15.97vw - 55px);
+        margin-bottom: 112px;
+    }
+
+    .desktop_align_destination div {
+
+        width: 30.90vw;
+        text-align: left;
+    }
+
+    hr {
+    
+        width: 100%;
+        margin-bottom: 28px;
+    }
+}
+
+@media (min-width: 1440px) {
+    
+    .body_destination {
+
+        background-image: url(../../assets/desktop/destination/background-destination-desktop.jpg);
+        min-height: 100vh;
+        padding: 40px 55px 0 55px;
+    }
+
+    .desktop_align_destination {
+
+        width: 72.70vw;
+        margin-left: calc(15.97vw - 55px);
     }
 
     .desktop_align_destination div {

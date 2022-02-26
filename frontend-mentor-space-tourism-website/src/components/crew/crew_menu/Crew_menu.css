@@ -4,15 +4,16 @@
         
         display: flex;
         justify-content: center;
+        order: 1;
         gap: 4.26vw;
         list-style: none;
         margin-bottom: 32px;
     }
-    
+
     .menu_crew li {
     
-        width: 2.6vw;
-        height: 2.6vw;
+        width: 10px;
+        height: 10px;
         background-color: rgba(255, 255, 255, 0.17);
         border-radius: 50%;
         cursor: pointer;
@@ -36,11 +37,21 @@
         gap: 2.08vw;
         margin-bottom: 40px;
     }
+}
+
+@media (min-width: 1024px) {
+    
+    .menu_crew {
+        
+        order: 0;
+        gap: 1.66vw;
+        margin-bottom: 0;
+    }
 
     .menu_crew li {
     
-        width: 1.3vw;
-        height: 1.3vw;
+        width: 15px;
+        height: 15px;
     }
 }
 
@@ -48,13 +59,14 @@
     
     .menu_crew {
         
+        order: 0;
         gap: 1.66vw;
         margin-bottom: 0;
     }
 
     .menu_crew li {
     
-        width: 1.04vw;
-        height: 1.04vw;
+        width: 15px;
+        height: 15px;
     }
 }

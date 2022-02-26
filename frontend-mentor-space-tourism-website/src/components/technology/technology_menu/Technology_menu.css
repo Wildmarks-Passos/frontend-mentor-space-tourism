@@ -49,11 +49,29 @@
 
     .menu_tech li {
     
-        font-size: 3.125vw;
-        line-height: 3.64vw;
-        letter-spacing: 0.19vw;
-        width: 7.81vw;
-        height: 7.81vw;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 1.5px;
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (min-width: 1024px) {
+    
+    .menu_tech {
+
+        flex-direction: column;
+        margin-left: calc(11.45vw - 55px);
+    }
+
+    .menu_tech li {
+    
+        font-size: 32px; 
+        line-height: 37px;
+        letter-spacing: 2px;
+        width: 60px;
+        height: 60px;
     }
 }
 
@@ -62,15 +80,15 @@
     .menu_tech {
 
         flex-direction: column;
-        margin-left: calc(11.45vw - 2.77vw);
+        margin-left: calc(11.45vw - 55px);
     }
 
     .menu_tech li {
     
-        font-size: 2.22vw; 
-        line-height: 2.56vw;
-        letter-spacing: 0.13vw;
-        width: 5.55vw;
-        height: 5.55vw;
+        font-size: 32px; 
+        line-height: 37px;
+        letter-spacing: 2px;
+        width: 80px;
+        height: 80px;
     }
 }
