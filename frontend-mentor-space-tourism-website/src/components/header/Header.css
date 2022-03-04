@@ -242,6 +242,13 @@
         
         width: 100%;
     }
+
+    .nav a.selected::after {
+        
+        border-bottom: solid 2px white;
+        z-index: 5;
+        width: 100%;
+    }
     
     .nav span {
         
