@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.39e02698.css",
+    "main.css": "/static/css/main.4af84086.css",
     "main.js": "/static/js/main.7204593a.js",
     "static/js/787.69322900.chunk.js": "/static/js/787.69322900.chunk.js",
     "static/media/image-victor-glover.png": "/static/media/image-victor-glover.8a9a5424588b73ec61c2.png",
@@ -31,12 +31,12 @@
     "static/media/logo.svg": "/static/media/logo.565f7f2c0534403f11b71994f4311210.svg",
     "static/media/icon-close.svg": "/static/media/icon-close.d47fda63cbd8b3fedbbc1b2a53f64470.svg",
     "static/media/icon-hamburger.svg": "/static/media/icon-hamburger.5273efa7c50e96ef3e51e7a2b54048ce.svg",
-    "main.39e02698.css.map": "/static/css/main.39e02698.css.map",
+    "main.4af84086.css.map": "/static/css/main.4af84086.css.map",
     "main.7204593a.js.map": "/static/js/main.7204593a.js.map",
     "787.69322900.chunk.js.map": "/static/js/787.69322900.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.39e02698.css",
+    "static/css/main.4af84086.css",
     "static/js/main.7204593a.js"
   ]
 }
